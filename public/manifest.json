@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "EaseU",
+    "action" :{
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting","activeTab"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
